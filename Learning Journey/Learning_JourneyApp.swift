@@ -11,7 +11,8 @@ import SwiftUI
 struct Learning_JourneyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            OnBoardingView()
+                .preferredColorScheme(.dark)
         }
     }
 }
